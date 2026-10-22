@@ -1,0 +1,21 @@
+=== LAPORAN EVALUASI MODEL SVM KLASIFIKASI KERUSAKAN LAYAR ===
+
+Parameter Terbaik : {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+Akurasi CV Latih  : 87.50%
+Akurasi Data Uji  : 86.67%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      ringan       0.76      0.95      0.84        20
+      sedang       0.89      0.80      0.84        20
+       berat       1.00      0.85      0.92        20
+
+    accuracy                           0.87        60
+   macro avg       0.88      0.87      0.87        60
+weighted avg       0.88      0.87      0.87        60
+
+Confusion Matrix:
+[[19  1  0]
+ [ 4 16  0]
+ [ 2  1 17]]
